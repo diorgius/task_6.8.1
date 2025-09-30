@@ -7,6 +7,12 @@ body {
     min-height: 100vh;
 }
 
+main > a {
+    padding: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1rem;
+}
+
 header {
     display: flex;
     align-items: center;
@@ -32,17 +38,22 @@ li {
     cursor: pointer;
 }
 
-li > a:hover {
-    box-shadow: 0 0 15px gray;
-    color: black;
-}
-
 li > a {
     display: block;
     text-decoration: none;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 2rem;
     padding: 45px;
+    color: gray;
+}
+
+li > a:hover {
+    box-shadow: 0 0 15px gray;
+    color: black;
+}
+
+li > a:active {
+    box-shadow: 0 0 25px gray;
     color: gray;
 }
 
