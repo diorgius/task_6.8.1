@@ -13,5 +13,5 @@ alertMessage.addEventListener('click', () => {
 const promptMessage = document.querySelector('#prompt');
 
 promptMessage.addEventListener('click', () => {
-    prompt('Служит для запроса данных');
+    alert('Служит для запроса данных от пользователя');
 });

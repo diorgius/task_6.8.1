@@ -1,7 +1,7 @@
 let textField = document.querySelector('#textField');
 let duplicateField = document.querySelector('#duplicateField');
 
-textField.addEventListener('keydown', (Event) => {
+textField.addEventListener('keyup', (Event) => {
     duplicateField.textContent = textField.value;
 });
 

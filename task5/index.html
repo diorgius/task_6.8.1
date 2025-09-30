@@ -3,21 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="style.css">
     <title>JS-Start. 5 задача</title>
 </head>
 <body>
-    <form action="#">
-        <label>
-            Текст
-            <input id="textField" type="text" placeholder="Введите текст">
-        </label>
-        <button id="clearButton" type="submit">
-            Вывести текст в консоль и удалить из формы
-        </button>
-    </form>
-    <hr>
-    <p>Введенный текст:</p>
-    <p id="duplicateField"></p>
+    <header>
+        <h1>Задача 5 - Перехват формы</h1>
+    </header>
+    <main>
+        <a href="../index.html">В начало</a>
+        <form action="#">
+            <label>
+                Текст<br>
+                <input id="textField" type="text" placeholder="Введите текст"><br>
+            </label>
+            <button id="clearButton" type="submit">
+                Вывести текст в консоль и удалить из формы
+            </button>
+        </form>
+        <div>Введенный текст:
+            <p id="duplicateField"></p>
+        </div>
+    </main>
+    <footer>
+        <span>Copyright&nbsp;&copy;&nbsp;Andrey Vidyakin</span>
+        <span>2025</span>
+        <br>
+        <span>
+            <a href="diorg@mail.ru">diorg@mail.ru</a>
+        </span>
+    </footer>
     <script src="script.js"></script>
 </body>
 </html>
